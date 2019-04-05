@@ -46,8 +46,8 @@ suite('Unit Tests', function(){
     });
     
     test('No Numerical Input', function(done) {
-      var input = 'abc'
-      assert.equal(convertHandler.getNum(input), 'invalid number');
+      var input = 'gal'
+      assert.equal(convertHandler.getNum(input), 1);
       done();
     }); 
     
